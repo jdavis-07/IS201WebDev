@@ -1,0 +1,15 @@
+header{
+    background-color: #555555;
+}
+body{
+    background-color: #aaaaaa;
+}
+a{
+    color: #eeeeee;
+}
+a:hover{
+    font-weight: 700;
+}
+a:visited{
+    color: #ffffff;
+}
