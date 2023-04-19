@@ -1,8 +1,16 @@
-header{
-    background-color: #555555;
-}
 body{
+    color: rgb(7, 7, 137);
     background-color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    border: solid #000000 2px;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    height: 100px;
+    z-index: 2;
+    text-align: center;
 }
 a{
     color: #eeeeee;
@@ -12,4 +20,59 @@ a:hover{
 }
 a:visited{
     color: #ffffff;
+}
+.leftside{
+    left: 5px;
+    top: 114px;
+    width: 100px;
+    height: 453px;
+    border: solid #000000 2px;
+    z-index: 2;
+}
+.rightside{
+    top: 114px;
+    right: 5px;
+    width: 300px;
+    height: 453px;
+    border: solid #000000 2px;
+    z-index: 2;
+}
+.middle{
+    top: 114px;
+    left: 114px;
+    right: 314px;
+    height: 453px;
+    border: solid #000000 2px;
+    z-index: 2;
+    text-align: justify;
+}
+.float{
+    float: right;
+}
+.common{
+    position: absolute;
+}
+.tableau{
+    right: 5px;
+    left: 5px;
+    bottom: 39px;
+    top: 576px;
+    border: solid #000000 2px;
+    z-index: 1;
+}
+.footer{
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    height: 25px;
+    border: solid #000000 2px;
+    z-index: 2;
+    position: fixed;
+    text-align: center;
+}
+.bottomlink{
+    color: black;
+}
+.bottomlink:visited{
+    color: black;
 }
